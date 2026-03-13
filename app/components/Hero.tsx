@@ -74,7 +74,7 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://www.youtube.com/@theofficialspadeztable"
+            href="https://www.youtube.com/@TheSpadezTable"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-3 bg-[#DD183B] hover:bg-[#b01230] text-white font-bold px-8 py-4 rounded-full text-base uppercase tracking-wide transition-all duration-200 hover:scale-105"

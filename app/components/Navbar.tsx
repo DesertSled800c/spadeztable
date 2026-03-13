@@ -56,7 +56,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="https://www.youtube.com/@theofficialspadeztable"
+          href="https://www.youtube.com/@TheSpadezTable"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center gap-2 bg-[#DD183B] hover:bg-[#b01230] text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-200 hover:scale-105"
@@ -102,7 +102,7 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="https://www.youtube.com/@theofficialspadeztable"
+                href="https://www.youtube.com/@TheSpadezTable"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#DD183B] text-white text-sm font-semibold px-5 py-2.5 rounded-full mt-2"

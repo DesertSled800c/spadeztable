@@ -1,24 +1,27 @@
 const featuredEpisodes = [
   {
-    title: "@theamberrayne Joins the Table",
+    title: "SpadezTable Episode",
     description:
-      "An in-depth conversation with @theamberrayne about Black women, identity, community, and navigating life at the intersection of faith and culture.",
-    tag: "Culture & Identity",
-    youtubeUrl: "https://www.youtube.com/@theofficialspadeztable",
+      "Pull up a chair and join the conversation. Real talk, real people, real perspectives.",
+    tag: "Latest Episode",
+    videoId: "7h81KEJsMAM",
+    youtubeUrl: "https://www.youtube.com/watch?v=7h81KEJsMAM",
   },
   {
     title: "Real Talk: Faith Over Fear",
     description:
       "A raw discussion about trusting the process, leaning into faith when life doesn't go as planned, and staying grounded through the grind.",
     tag: "Faith & Mindset",
-    youtubeUrl: "https://www.youtube.com/@theofficialspadeztable",
+    videoId: null,
+    youtubeUrl: "https://www.youtube.com/@TheSpadezTable",
   },
   {
     title: "What's on Your Pizza? Community Edition",
     description:
       "Lighter vibes, real laughs. The table opens up for community questions, debates, and the kind of talk that keeps you coming back every week.",
     tag: "Community",
-    youtubeUrl: "https://www.youtube.com/@theofficialspadeztable",
+    videoId: null,
+    youtubeUrl: "https://www.youtube.com/@TheSpadezTable",
   },
 ];
 
@@ -53,7 +56,7 @@ export default function Episodes() {
             </h2>
           </div>
           <a
-            href="https://www.youtube.com/@theofficialspadeztable"
+            href="https://www.youtube.com/@TheSpadezTable"
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 text-white/60 hover:text-white font-semibold text-sm uppercase tracking-widest border border-white/20 hover:border-white/40 px-6 py-3 rounded-full transition-all duration-200"
@@ -75,30 +78,39 @@ export default function Episodes() {
               rel="noopener noreferrer"
               className="group relative flex flex-col bg-[#0d0d0d] border border-white/5 rounded-2xl overflow-hidden hover:border-[#DD183B]/40 transition-all duration-300 hover:-translate-y-1"
             >
-              {/* Thumbnail placeholder */}
-              <div
-                className="relative aspect-video bg-[#1a1a1a] flex items-center justify-center overflow-hidden"
-                style={{
-                  background: `linear-gradient(135deg, #1a0008 0%, #1a1a1a 100%)`,
-                }}
-              >
-                {/* Episode number */}
-                <span
-                  className="absolute top-4 left-4 text-[80px] font-black text-white/5 leading-none select-none"
-                  style={{ fontFamily: "var(--font-lexend), sans-serif" }}
-                >
-                  {String(i + 1).padStart(2, "0")}
-                </span>
+              {/* Thumbnail */}
+              <div className="relative aspect-video bg-[#1a1a1a] flex items-center justify-center overflow-hidden">
+                {ep.videoId ? (
+                  <>
+                    {/* Real YouTube thumbnail */}
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`https://img.youtube.com/vi/${ep.videoId}/hqdefault.jpg`}
+                      alt={ep.title}
+                      className="absolute inset-0 w-full h-full object-cover"
+                    />
+                    {/* Dark overlay */}
+                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors duration-300" />
+                  </>
+                ) : (
+                  <>
+                    {/* Placeholder gradient */}
+                    <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #1a0008 0%, #1a1a1a 100%)" }} />
+                    <span
+                      className="absolute top-4 left-4 text-[80px] font-black text-white/5 leading-none select-none"
+                      style={{ fontFamily: "var(--font-lexend), sans-serif" }}
+                    >
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                  </>
+                )}
 
                 {/* Play button */}
-                <div className="relative z-10 w-16 h-16 rounded-full bg-[#DD183B] flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
+                <div className="relative z-10 w-16 h-16 rounded-full bg-[#DD183B] flex items-center justify-center group-hover:scale-110 transition-transform duration-200" style={{ boxShadow: "0 0 20px rgba(221,24,59,0.5)" }}>
                   <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M8 5v14l11-7z" />
                   </svg>
                 </div>
-
-                {/* Red glow on hover */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ background: "radial-gradient(circle at center, rgba(221,24,59,0.15) 0%, transparent 70%)" }} />
               </div>
 
               {/* Content */}

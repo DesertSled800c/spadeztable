@@ -15,7 +15,8 @@
       "Bash(lsof -ti :3000)",
       "Bash(xargs kill -9)",
       "Bash(ls \"/Users/akshaykhona/workspace/Spadez Table/postcss.config\"*)",
-      "Bash(npm install autoprefixer)"
+      "Bash(npm install autoprefixer)",
+      "WebFetch(domain:www.youtube.com)"
     ]
   }
 }

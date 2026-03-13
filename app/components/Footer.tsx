@@ -60,7 +60,7 @@ export default function Footer() {
             </a>
             <div className="flex gap-4 mt-2">
               <a
-                href="https://www.youtube.com/@theofficialspadeztable"
+                href="https://www.youtube.com/@TheSpadezTable"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/30 hover:text-[#DD183B] transition-colors duration-200"
