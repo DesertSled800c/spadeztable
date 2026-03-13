@@ -8,20 +8,20 @@ const featuredEpisodes = [
     youtubeUrl: "https://www.youtube.com/watch?v=7h81KEJsMAM",
   },
   {
-    title: "Real Talk: Faith Over Fear",
+    title: "SpadezTable Episode",
     description:
-      "A raw discussion about trusting the process, leaning into faith when life doesn't go as planned, and staying grounded through the grind.",
-    tag: "Faith & Mindset",
-    videoId: null,
-    youtubeUrl: "https://www.youtube.com/@TheSpadezTable",
+      "Another conversation at the table. Real voices, real stories, real impact.",
+    tag: "Episode",
+    videoId: "I0jEet3uA34",
+    youtubeUrl: "https://www.youtube.com/watch?v=I0jEet3uA34",
   },
   {
-    title: "What's on Your Pizza? Community Edition",
+    title: "SpadezTable Episode",
     description:
-      "Lighter vibes, real laughs. The table opens up for community questions, debates, and the kind of talk that keeps you coming back every week.",
-    tag: "Community",
-    videoId: null,
-    youtubeUrl: "https://www.youtube.com/@TheSpadezTable",
+      "The table never stops. Tune in for more unfiltered conversation from the SpadezTable crew.",
+    tag: "Episode",
+    videoId: "dvx354u0kPI",
+    youtubeUrl: "https://www.youtube.com/watch?v=dvx354u0kPI",
   },
 ];
 
