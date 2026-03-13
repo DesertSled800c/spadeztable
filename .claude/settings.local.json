@@ -10,7 +10,12 @@
       "Bash(git add .)",
       "WebFetch(domain:desertsled800c.github.io)",
       "Bash(xargs sed -i '' 's/fontFamily: \"\"Lexend, sans-serif\"\"/fontFamily: \"\"var\\(--font-lexend\\), sans-serif\"\"/g')",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(lsof -ti :3000)",
+      "Bash(xargs kill -9)",
+      "Bash(ls \"/Users/akshaykhona/workspace/Spadez Table/postcss.config\"*)",
+      "Bash(npm install autoprefixer)"
     ]
   }
 }

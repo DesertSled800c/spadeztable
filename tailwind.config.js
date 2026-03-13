@@ -1,6 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,10 +16,6 @@ const config: Config = {
           "gray-mid": "#1a1a1a",
           cream: "#FFEDE6",
         },
-      },
-      fontFamily: {
-        lexend: ["Lexend", "sans-serif"],
-        "dm-sans": ["DM Sans", "sans-serif"],
       },
       animation: {
         "fade-up": "fadeUp 0.6s ease-out forwards",
@@ -40,4 +35,3 @@ const config: Config = {
   },
   plugins: [],
 };
-export default config;
