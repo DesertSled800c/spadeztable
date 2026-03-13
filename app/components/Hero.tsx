@@ -49,7 +49,7 @@ export default function Hero() {
         {/* Main heading */}
         <h1
           className="text-6xl sm:text-8xl lg:text-[110px] font-black uppercase leading-none tracking-tighter mb-6"
-          style={{ fontFamily: "Lexend, sans-serif" }}
+          style={{ fontFamily: "var(--font-lexend), sans-serif" }}
         >
           <span className="block text-white">The Table</span>
           <span

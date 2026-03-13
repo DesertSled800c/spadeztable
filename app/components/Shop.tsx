@@ -41,7 +41,7 @@ export default function Shop() {
           </div>
           <h2
             className="text-5xl lg:text-6xl font-black uppercase leading-tight tracking-tighter text-white mb-4"
-            style={{ fontFamily: "Lexend, sans-serif" }}
+            style={{ fontFamily: "var(--font-lexend), sans-serif" }}
           >
             Wear the <span className="text-[#DD183B]">Table.</span>
           </h2>
@@ -66,7 +66,7 @@ export default function Shop() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <span
                     className="text-white/5 text-8xl font-black uppercase rotate-[-20deg]"
-                    style={{ fontFamily: "Lexend, sans-serif" }}
+                    style={{ fontFamily: "var(--font-lexend), sans-serif" }}
                   >
                     TST
                   </span>
@@ -103,7 +103,7 @@ export default function Shop() {
                 </div>
                 <h3
                   className="text-white font-bold text-lg mb-2"
-                  style={{ fontFamily: "Lexend, sans-serif" }}
+                  style={{ fontFamily: "var(--font-lexend), sans-serif" }}
                 >
                   {product.name}
                 </h3>
@@ -120,7 +120,7 @@ export default function Shop() {
         >
           <h3
             className="text-white text-2xl font-bold mb-2"
-            style={{ fontFamily: "Lexend, sans-serif" }}
+            style={{ fontFamily: "var(--font-lexend), sans-serif" }}
           >
             Be First. Get Notified.
           </h3>

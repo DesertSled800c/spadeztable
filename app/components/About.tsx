@@ -29,7 +29,7 @@ export default function About() {
 
           <h2
             className="text-5xl lg:text-6xl font-black uppercase leading-tight tracking-tighter text-white mb-6"
-            style={{ fontFamily: "Lexend, sans-serif" }}
+            style={{ fontFamily: "var(--font-lexend), sans-serif" }}
           >
             Pull Up a <span className="text-[#DD183B]">Chair.</span>
           </h2>
@@ -70,7 +70,7 @@ export default function About() {
               >
                 <div
                   className="text-4xl font-black text-[#DD183B] mb-1"
-                  style={{ fontFamily: "Lexend, sans-serif" }}
+                  style={{ fontFamily: "var(--font-lexend), sans-serif" }}
                 >
                   {stat.value}
                 </div>
@@ -98,7 +98,7 @@ export default function About() {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                 </svg>
               </div>
-              <blockquote className="text-white text-xl font-bold leading-snug mb-4" style={{ fontFamily: "Lexend, sans-serif" }}>
+              <blockquote className="text-white text-xl font-bold leading-snug mb-4" style={{ fontFamily: "var(--font-lexend), sans-serif" }}>
                 &ldquo;When GOD has plans, no man can put asunder.&rdquo;
               </blockquote>
               <div className="flex items-center gap-3">

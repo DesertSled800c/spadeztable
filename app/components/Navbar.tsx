@@ -33,7 +33,7 @@ export default function Navbar() {
         <a href="#home" className="flex items-center gap-2 group">
           <span
             className="text-2xl font-black tracking-tighter"
-            style={{ fontFamily: "Lexend, sans-serif" }}
+            style={{ fontFamily: "var(--font-lexend), sans-serif" }}
           >
             <span className="text-white">SPADEZ</span>
             <span className="text-[#DD183B]">TABLE</span>

@@ -18,7 +18,7 @@ export default function Footer() {
           <div>
             <div
               className="text-3xl font-black tracking-tighter mb-4"
-              style={{ fontFamily: "Lexend, sans-serif" }}
+              style={{ fontFamily: "var(--font-lexend), sans-serif" }}
             >
               <span className="text-white">SPADEZ</span>
               <span className="text-[#DD183B]">TABLE</span>

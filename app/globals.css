@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap');
-
 :root {
   --brand-red: #DD183B;
   --brand-red-dark: #b01230;
@@ -26,13 +24,13 @@ html {
 body {
   background-color: var(--brand-black);
   color: #ffffff;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--font-dm-sans), sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lexend", sans-serif;
+  font-family: var(--font-lexend), sans-serif;
   font-weight: 700;
 }
 

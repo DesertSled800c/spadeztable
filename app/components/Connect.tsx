@@ -60,7 +60,7 @@ export default function Connect() {
           </div>
           <h2
             className="text-5xl lg:text-6xl font-black uppercase leading-tight tracking-tighter text-white"
-            style={{ fontFamily: "Lexend, sans-serif" }}
+            style={{ fontFamily: "var(--font-lexend), sans-serif" }}
           >
             Join the <span className="text-[#DD183B]">Community.</span>
           </h2>
@@ -85,7 +85,7 @@ export default function Connect() {
               </div>
 
               <div>
-                <div className="text-white font-bold text-lg mb-1" style={{ fontFamily: "Lexend, sans-serif" }}>
+                <div className="text-white font-bold text-lg mb-1" style={{ fontFamily: "var(--font-lexend), sans-serif" }}>
                   {social.name}
                 </div>
                 <div className="text-[#DD183B] text-sm font-medium mb-2">{social.handle}</div>

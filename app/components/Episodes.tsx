@@ -47,7 +47,7 @@ export default function Episodes() {
             </div>
             <h2
               className="text-5xl lg:text-6xl font-black uppercase leading-tight tracking-tighter text-white"
-              style={{ fontFamily: "Lexend, sans-serif" }}
+              style={{ fontFamily: "var(--font-lexend), sans-serif" }}
             >
               Recent <span className="text-[#DD183B]">Drops.</span>
             </h2>
@@ -85,7 +85,7 @@ export default function Episodes() {
                 {/* Episode number */}
                 <span
                   className="absolute top-4 left-4 text-[80px] font-black text-white/5 leading-none select-none"
-                  style={{ fontFamily: "Lexend, sans-serif" }}
+                  style={{ fontFamily: "var(--font-lexend), sans-serif" }}
                 >
                   {String(i + 1).padStart(2, "0")}
                 </span>
@@ -108,7 +108,7 @@ export default function Episodes() {
                 </span>
                 <h3
                   className="text-white font-bold text-lg leading-snug mb-3 group-hover:text-[#DD183B] transition-colors duration-200"
-                  style={{ fontFamily: "Lexend, sans-serif" }}
+                  style={{ fontFamily: "var(--font-lexend), sans-serif" }}
                 >
                   {ep.title}
                 </h3>
